@@ -74,13 +74,12 @@ export const Footer = () => {
                         /home
                     </Link>
                 </NextLink>
-                <NextLink href="#blog" passHref>
+                <NextLink href="/blog" passHref>
                     <Link
                         fontSize="md"
                         color="gray.500"
                         minWidth="100px"
                         mr={2}
-                        title="Hello"
                     >
                         /blog
                     </Link>
