@@ -42,7 +42,7 @@ export default function BlogLayout({ children, frontMatter }) {
 
     return (
         <>
-             <Box h={1} as="div" bgGradient="linear(to-r, blue.200, red.500)" position="sticky" top={0} zIndex={100} w={`${width}%`}></Box>
+             <Box h={0.5} as="div" bgGradient="linear(to-r, black, white)" position="sticky" top={0} zIndex={100} w={`${width}%`}></Box>
             <Container>
             <Head>
                 <title>{`${frontMatter.title} – Blog - Mithun Reddy`}</title>
