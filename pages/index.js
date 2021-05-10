@@ -70,14 +70,14 @@ export default function Index() {
               <Button>resume</Button></Link>
           </Text>
           
-          <Divider type="dashed" mb={8} mt={12} w='100%' alignSelf="center" />
+          <Divider type="dashed" mb={8} mt={12} w='90%' alignSelf="center" />
 
             <Heading letterSpacing="tight" mt={8} mb={4} size="lg" fontWeight={700} as="h2">
             Technical Skills
           </Heading>
           <Skills />
 
-            <Divider type="dashed" mb={8} mt={12} w='100%' alignSelf="center" />
+            <Divider type="dashed" mb={8} mt={12} w='90%' alignSelf="center" />
 
           <Heading letterSpacing="tight" mt={8} mb={4} size="lg" fontWeight={700} as="h2">
               Latest Blog

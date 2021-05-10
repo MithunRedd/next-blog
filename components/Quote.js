@@ -40,7 +40,7 @@ const Quote = () => {
         >
             {quote}
             <br />
-            [{author}]
+            [ {author} ]
         </Flex>
     )
 }
