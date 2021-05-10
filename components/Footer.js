@@ -27,7 +27,7 @@ export const Footer = () => {
                         _hover={{ backgroundColor: footerHoverBg[colorMode] }}
                     />
                 </Link>
-                
+
                 <Link href="https://twitter.com/mithunreddy1357" title="Twitter" isExternal>
                     <IconButton
                         aria-label="Twitter"
@@ -72,6 +72,7 @@ export const Footer = () => {
                         color="gray.500"
                         minWidth="100px"
                         mr={2}
+                        mb={3}
                     >
                         /home
                     </Link>
@@ -82,6 +83,7 @@ export const Footer = () => {
                         color="gray.500"
                         minWidth="100px"
                         mr={2}
+                        mb={3}
                     >
                         /blog
                     </Link>

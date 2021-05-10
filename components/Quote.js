@@ -34,7 +34,7 @@ const Quote = () => {
             noOfLines={8}
             color={useColorModeValue("black.500", "white")}
             alignItems="flex-start"
-            m="0 auto 4rem auto"
+            m="0 auto 3rem auto"
             maxWidth="700px"
             px={2}
         >
