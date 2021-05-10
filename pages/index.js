@@ -12,6 +12,7 @@ import {
 import { motion, useViewportScroll, useTransform } from "framer-motion"
 
 import Container from '../components/Container'
+import Skills from '../components/Skills'
 
 export default function Index() {
   const MotionBox = motion(chakra.div)
@@ -67,7 +68,6 @@ export default function Index() {
             I have interned with a few mid-size companies and was able to work closely with their mobile and web developers. I also have a lot of experience with online code repositories,
           and I love to contribute as much as I can.</Text>
           </MotionBox>
-
           <MotionBox
             whileHover={{ scale: 1.2 }}
             whileTap={{ scale: 0.9 }}
@@ -80,7 +80,7 @@ export default function Index() {
             <Heading letterSpacing="tight" mt={8} mb={4} size="lg" fontWeight={700} as="h2">
             Technical Skills
           </Heading>
-        
+          <Skills />
         </Flex>
       </Stack>
       

@@ -79,9 +79,9 @@ const Container = ({ children }) => {
             >
                 {children}
 
-                <Footer />
+                
             </Flex>
-            
+            <Footer />
         </>
     )
 }
