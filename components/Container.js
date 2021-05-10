@@ -41,8 +41,8 @@ const Container = ({ children }) => {
         <>
             <StickyNav
                 flexDirection="row"
-                justifyContent="flex-end"
-                alignItems="flex-end"
+                justifyContent="space-between"
+                alignItems="flex-start"
                 maxWidth="800px"
                 minWidth="356px"
                 width="100%"
