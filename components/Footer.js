@@ -1,7 +1,7 @@
 import React from 'react'
 import NextLink from 'next/link'
 import { Flex, Link, IconButton, useColorMode } from '@chakra-ui/react'
-import { FiGithub, FiTwitter, FiLinkedin, FiYoutube, FiMail } from "react-icons/fi"
+import { FiGithub, FiTwitter, FiLinkedin, FiMail } from "react-icons/fi"
 
 export const Footer = () => {
 
