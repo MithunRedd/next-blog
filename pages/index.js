@@ -77,22 +77,10 @@ export default function Index() {
             </Text>
           </MotionBox>
 
-          <MotionBox
-            style={{ scale }}
-            initial="hidden"
-            animate="visible"
-          >
-            <MotionBox
-            style={{
-            scaleY: scrollYProgress
-            }}
-            />
             <Heading letterSpacing="tight" mt={8} mb={4} size="lg" fontWeight={700} as="h2">
             Technical Skills
           </Heading>
-        </MotionBox>
-          
-
+        
         </Flex>
       </Stack>
       
