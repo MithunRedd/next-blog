@@ -91,6 +91,7 @@ export default function Index() {
               title="Another Test Post"
               summary="Another awesome post! This is the summary of our blog post! This is the summary of our blog post! This is the summary of our blog post!"
               slug="test-post2"
+              publishedAt= "2021-06-06"
             />
         </Flex>
       </Stack>
