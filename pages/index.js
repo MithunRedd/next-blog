@@ -16,6 +16,7 @@ import { ArrowForwardIcon } from '@chakra-ui/icons'
 import Container from '../components/Container'
 import Skills from '../components/Skills'
 import BlogPost from '../components/BlogPost'
+import Quote from '../components/Quote'
 
 export default function Index() {
   const MotionBox = motion(chakra.div)
@@ -100,7 +101,7 @@ export default function Index() {
             </Flex>
         </Flex>
       </Stack>
-      
+      <Quote />
       
     </Container>
   )

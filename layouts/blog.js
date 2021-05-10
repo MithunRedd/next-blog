@@ -91,8 +91,7 @@ export default function BlogLayout({ children, frontMatter }) {
                             {frontMatter.readingTime.text}
                         </Text>
                     </Flex>
-                </Flex>
-                
+                </Flex>  
                 {children}
             </Stack>
             </Container>
