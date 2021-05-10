@@ -41,8 +41,8 @@ const Container = ({ children }) => {
         <>
             <StickyNav
                 flexDirection="row"
-                justifyContent="space-between"
-                alignItems="center"
+                justifyContent="flex-end"
+                alignItems="flex-end"
                 maxWidth="800px"
                 minWidth="356px"
                 width="100%"
@@ -56,12 +56,12 @@ const Container = ({ children }) => {
             >
                 <Box>
                     <NextLink href="/">
-                        <Button as="a" variant="ghost" fontSize="20px" p={[1, 2, 4]} cursor='pointer' _hover={{ backgroundColor: navHoverBg[colorMode] }}>
+                        <Button as="a" variant="ghost" p={[1, 2, 4]} cursor='pointer' _hover={{ backgroundColor: navHoverBg[colorMode] }}>
                             Home
                         </Button>
                     </NextLink>
                     <NextLink href="/blog">
-                        <Button as="a" variant="ghost" fontSize="20px" p={[1, 2, 4]} cursor='pointer' _hover={{ backgroundColor: navHoverBg[colorMode] }}>
+                        <Button as="a" variant="ghost" p={[1, 2, 4]} cursor='pointer' _hover={{ backgroundColor: navHoverBg[colorMode] }}>
                             Blog
                         </Button>
                     </NextLink>
