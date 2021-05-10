@@ -8,7 +8,7 @@ import {SiNextDotJs} from "react-icons/si"
 const Skills = () => {
     
     return (
-        <Stack spacing={["3", "6"]} direction="row" mt={[3]}>
+        <Stack spacing={["2", "6"]} direction="row" mt={[3]}>
             <Icon as={FaPython} w={[6, 6]} h={[6, 6]} color={'blackAlpha'} />
             <Icon as={FaHtml5} w={[6, 6]} h={[6, 6]} color={'blackAlpha'} />
             <Icon as={FaCss3} w={[6, 6]} h={[6, 6]} color={'blackAlpha'} />
