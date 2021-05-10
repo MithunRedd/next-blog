@@ -17,16 +17,6 @@ export const Footer = () => {
     return (
         <Flex align="center" mb={4} direction="column" visibility={'hidden', 'visible', 'visible'} display={['none', 'flex', 'flex']}>
             <div>
-                <Link href="https://twitter.com/mithunreddy1357" title="Twitter" isExternal>
-                    <IconButton
-                        aria-label="Twitter"
-                        icon={<FiTwitter />}
-                        size="lg"
-                        color={borderIcon[colorMode]}
-                        variant="ghost"
-                        _hover={{ backgroundColor: footerHoverBg[colorMode] }}
-                    />
-                </Link>
                 <Link href="https://github.com/MithunRedd" title="GitHub" isExternal>
                     <IconButton
                         aria-label="GitHub"
@@ -37,6 +27,18 @@ export const Footer = () => {
                         _hover={{ backgroundColor: footerHoverBg[colorMode] }}
                     />
                 </Link>
+                
+                <Link href="https://twitter.com/mithunreddy1357" title="Twitter" isExternal>
+                    <IconButton
+                        aria-label="Twitter"
+                        icon={<FiTwitter />}
+                        size="lg"
+                        color={borderIcon[colorMode]}
+                        variant="ghost"
+                        _hover={{ backgroundColor: footerHoverBg[colorMode] }}
+                    />
+                </Link>
+                
                 <Link
                     href="https://www.linkedin.com/in/mithunreddyy"
                     title="LinkedIn"
