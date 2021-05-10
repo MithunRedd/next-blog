@@ -73,7 +73,7 @@ export default function Index() {
           <Skills />
 
           <Heading letterSpacing="tight" mt={8} mb={4} size="lg" fontWeight={700} as="h2">
-              Latest Blog Post
+              Latest Blog
             </Heading>
 
             <BlogPost
