@@ -59,24 +59,13 @@ export default function Index() {
             <Heading mb={2}>Hi, I'm Mithun Reddy, a developer, a designer and a graduate </Heading>
           </MotionBox>
 
-          <MotionBox
-            whileHover={{ scale: 1.1,transition: { duration: 0.5 }, }}
-            whileTap={{ scale: 0.9 }}
-            animate={{ y: 10 }}
-            transition={{ ease: "easeOut", duration:0.5 }}          
-          >
           <Text color={colorSecondary[colorMode]}>I was born and raised in Hyderabad. I'm pursuing my B.tech degree in computer science from ICFAI Foundation For Higher Education (ICFAI University, Hyderabad).
-            I have interned with a few mid-size companies and was able to work closely with their mobile and web developers. I also have a lot of experience with online code repositories,
+          I have interned with a few mid-size companies and was able to work closely with their mobile and web developers. I also have a lot of experience with online code repositories,
           and I love to contribute as much as I can.</Text>
-          </MotionBox>
-          <MotionBox
-            whileHover={{ scale: 1.2 }}
-            whileTap={{ scale: 0.9 }}
-          >
+          
           <Text alignItems="center" justifyContent="center" mt={5} color={colorSecondary[colorMode]}>Feel free to see my <Link href="https://gitconnected.com/mithunredd/resume" isExternal color={colorSecondary[colorMode]}>
               <Button>resume</Button></Link>
             </Text>
-          </MotionBox>
 
             <Heading letterSpacing="tight" mt={8} mb={4} size="lg" fontWeight={700} as="h2">
             Technical Skills
