@@ -13,6 +13,7 @@ import { motion, useViewportScroll, useTransform } from "framer-motion"
 
 import Container from '../components/Container'
 import Skills from '../components/Skills'
+import BlogPost from '../components/BlogPost'
 
 export default function Index() {
   const MotionBox = motion(chakra.div)
@@ -81,6 +82,16 @@ export default function Index() {
             Technical Skills
           </Heading>
           <Skills />
+
+          <Heading letterSpacing="tight" mt={8} mb={4} size="lg" fontWeight={700} as="h2">
+              Latest Blog Post
+            </Heading>
+
+            <BlogPost
+              title="Another Test Post"
+              summary="Another awesome post! This is the summary of our blog post! This is the summary of our blog post! This is the summary of our blog post!"
+              slug="test-post2"
+            />
         </Flex>
       </Stack>
       

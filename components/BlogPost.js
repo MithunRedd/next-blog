@@ -32,7 +32,7 @@ const BlogPost = ({ title, publishedAt, summary, slug }) => {
                             textAlign={['left', 'right']}
                             mb={[4, 0]}
                         >
-                            {format(parseISO(publishedAt), 'MM/dd/yyyy')}
+                            g
                         </Text>
 
                     </Flex>
