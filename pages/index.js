@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import NextLink from 'next/link'
 import {
   useColorMode,
   Heading,
@@ -7,10 +8,11 @@ import {
   Stack,
   Link,
   Button,
-  chakra
+  chakra,
+  Divider
 } from '@chakra-ui/react'
 import { motion, useViewportScroll, useTransform } from "framer-motion"
-
+import { ArrowForwardIcon } from '@chakra-ui/icons'
 import Container from '../components/Container'
 import Skills from '../components/Skills'
 import BlogPost from '../components/BlogPost'
@@ -51,7 +53,7 @@ export default function Index() {
           maxWidth="700px"
         >
           <MotionBox
-            whileHover={{scale: 1.3,transition: { duration: 0.5 },}}
+            whileHover={{scale: 1.2,transition: { duration: 0.5 },}}
             whileTap={{ scale: 0.9 }}
             animate={{ y: -10 }}
             transition={{ ease: "easeOut", duration: 0.5 }} 
@@ -65,12 +67,16 @@ export default function Index() {
           
           <Text alignItems="center" justifyContent="center" mt={5} color={colorSecondary[colorMode]}>Feel free to see my <Link href="https://gitconnected.com/mithunredd/resume" isExternal color={colorSecondary[colorMode]}>
               <Button>resume</Button></Link>
-            </Text>
+          </Text>
+          
+          <Divider type="dashed" mb={8} mt={12} w='100%' alignSelf="center" />
 
             <Heading letterSpacing="tight" mt={8} mb={4} size="lg" fontWeight={700} as="h2">
             Technical Skills
           </Heading>
           <Skills />
+
+            <Divider type="dashed" mb={8} mt={12} w='100%' alignSelf="center" />
 
           <Heading letterSpacing="tight" mt={8} mb={4} size="lg" fontWeight={700} as="h2">
               Latest Blog
@@ -81,7 +87,17 @@ export default function Index() {
               summary="Another awesome post! This is the summary of our blog post! This is the summary of our blog post! This is the summary of our blog post!"
               slug="test-post2"
               publishedAt= "2021-06-06"
-            />
+          />
+          
+          <Flex justify="center" width="100%">
+              <NextLink href="/blog" passHref>
+                <Link _hover="none">
+                  <Button rightIcon={<ArrowForwardIcon />} colorScheme="gray" variant="outline" aria-label="view all posts">
+                    View All Posts
+                  </Button>
+                </Link>
+              </NextLink>
+            </Flex>
         </Flex>
       </Stack>
       

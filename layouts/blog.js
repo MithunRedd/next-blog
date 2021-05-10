@@ -92,6 +92,7 @@ export default function BlogLayout({ children, frontMatter }) {
                         </Text>
                     </Flex>
                 </Flex>
+                
                 {children}
             </Stack>
             </Container>
