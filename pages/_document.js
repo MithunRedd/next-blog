@@ -18,7 +18,6 @@ export default class MyDocument extends NextDocument {
                     <link rel="icon" href="/edit-2.svg" />
                     <link rel="icon" href="/edit-2.svg" />
                     <link rel="apple-touch-icon" sizes="180x180" href="/edit-2.svg" />
-                    <link rel="manifest" href="/site.webmanifest" />
                     <link rel="mask-icon" href="/edit-2.svg" color="#5bbad5" />
                     <meta name="theme-color" content="#ffffff" />
                 </Head>
