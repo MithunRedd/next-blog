@@ -44,14 +44,14 @@ export default function Index() {
         justifyContent="center"
         alignItems="flex-start"
         m="0 auto 4rem auto"
-        maxWidth="900px"
+        maxWidth="700px"
         px={2}
       >
         <Flex
           flexDirection="column"
           justifyContent="flex-start"
           alignItems="flex-start"
-          maxWidth="900px"
+          maxWidth="700px"
         >
           <MotionBox
             whileHover={{scale: 1.2,transition: { duration: 0.5 },}}
