@@ -8,7 +8,8 @@ import {
     Flex,
     Stack,
     Avatar,
-    Box
+    Box,
+    useColorModeValue
 } from '@chakra-ui/react'
 import { useRouter } from 'next/router'
 
@@ -16,6 +17,7 @@ import Container from '../components/Container'
 
 export default function BlogLayout({ children, frontMatter }) {
     const { colorMode } = useColorMode()
+    const bg = useColorModeValue("gray.700", "white")
     const textColor = {
         light: 'gray.700',
         dark: 'gray.400'
@@ -42,7 +44,7 @@ export default function BlogLayout({ children, frontMatter }) {
 
     return (
         <>
-             <Box h={1} as="div" bgGradient="linear(to-r, red.300 ,blue.400 )" position="sticky" top={0} zIndex={100} w={`${width}%`}></Box>
+             <Box h={1} as="div" bgColor={bg} position="sticky" top={0} zIndex={100} w={`${width}%`}></Box>
             <Container>
             <Head>
                 <title>{`${frontMatter.title} – Blog - Mithun Reddy`}</title>
