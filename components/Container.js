@@ -49,7 +49,7 @@ const Container = ({ children }) => {
         mx="auto"
       >
         <Box>
-          <NextLink href="/">
+          <NextLink href="/" passHref>
             <Button
               as="a"
               variant="ghost"
@@ -60,7 +60,7 @@ const Container = ({ children }) => {
               Home
             </Button>
           </NextLink>
-          <NextLink href="/blog">
+          <NextLink href="/blog" passHref>
             <Button
               as="a"
               variant="ghost"

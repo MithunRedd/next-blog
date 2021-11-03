@@ -26,7 +26,12 @@ export default function Index() {
   const { colorMode } = useColorMode();
   const colorSecondary = {
     light: "gray.700",
-    dark: "gray.400",
+    dark: "gray.300",
+  };
+
+  const color = {
+    light: "gray.600",
+    dark: "gray.300",
   };
 
   const variants = {
@@ -90,7 +95,7 @@ export default function Index() {
           </Text>
 
           <Divider
-            color={"blackAlpha"}
+            colorScheme="blackalpha"
             mb={8}
             mt={12}
             w="90%"
@@ -105,12 +110,13 @@ export default function Index() {
             fontWeight={700}
             as="h2"
           >
-            Technical Skills
+            Tech Stack
           </Heading>
+
           <Skills />
 
           <Divider
-            color={"blackAlpha"}
+            colorScheme="blackalpha"
             mb={8}
             mt={12}
             w="90%"
