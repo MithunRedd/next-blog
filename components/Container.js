@@ -1,8 +1,7 @@
-import React from "react";
-import { useColorMode, Button, Flex, Box } from "@chakra-ui/react";
-import NextLink from "next/link";
+import { Box, Button, Flex, useColorMode } from "@chakra-ui/react";
 import styled from "@emotion/styled";
-
+import NextLink from "next/link";
+import React from "react";
 import DarkModeSwitch from "../components/DarkModeSwitch";
 import { Footer } from "../components/Footer";
 
@@ -20,8 +19,8 @@ const Container = ({ children }) => {
   };
 
   const navHoverBg = {
-    light: "gray.600",
-    dark: "gray.300",
+    light: "gray.400",
+    dark: "gray.500",
   };
 
   const StickyNav = styled(Flex)`

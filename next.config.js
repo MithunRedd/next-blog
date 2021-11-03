@@ -1,7 +1,9 @@
 module.exports = {
   webpack: (config, { isServer }) => {
     if (isServer) {
-      require("./scripts/generate-sitemap");
+      config.node = {
+        fs: "empty",
+      };
     }
 
     return config;

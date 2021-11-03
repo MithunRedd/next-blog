@@ -1,6 +1,6 @@
-import NextDocument, { Html, Head, Main, NextScript } from "next/document";
-import GoogleFonts from "next-google-fonts";
 import { ColorModeScript } from "@chakra-ui/react";
+import GoogleFonts from "next-google-fonts";
+import NextDocument, { Head, Html, Main, NextScript } from "next/document";
 import theme from "../styles/theme";
 
 export default class MyDocument extends NextDocument {
@@ -11,8 +11,7 @@ export default class MyDocument extends NextDocument {
         <Head>
           <script
             dangerouslySetInnerHTML={{
-              __html: `
-                            window.dataLayer = window.dataLayer || [];`,
+              __html: `window.dataLayer = window.dataLayer || [];`,
             }}
           />
           <link rel="icon" href="/edit-2.svg" />

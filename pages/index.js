@@ -1,22 +1,22 @@
-import Head from "next/head";
-import NextLink from "next/link";
+import { ArrowForwardIcon } from "@chakra-ui/icons";
 import {
-  useColorMode,
-  Heading,
-  Text,
-  Flex,
-  Stack,
-  Link,
   Button,
   chakra,
   Divider,
+  Flex,
+  Heading,
+  Link,
+  Stack,
+  Text,
+  useColorMode,
 } from "@chakra-ui/react";
-import { motion, useViewportScroll, useTransform } from "framer-motion";
-import { ArrowForwardIcon } from "@chakra-ui/icons";
-import Container from "../components/Container";
-import Skills from "../components/Skills";
+import { motion, useTransform, useViewportScroll } from "framer-motion";
+import Head from "next/head";
+import NextLink from "next/link";
 import BlogPost from "../components/BlogPost";
+import Container from "../components/Container";
 import Quote from "../components/Quote";
+import Skills from "../components/Skills";
 
 export default function Index() {
   const MotionBox = motion(chakra.div);
@@ -69,8 +69,8 @@ export default function Index() {
             computer science from ICFAI Foundation For Higher Education (ICFAI
             University, Hyderabad). I have interned with a few mid-size
             companies and was able to work closely with their mobile and web
-            developers. I also have a lot of experience with online code
-            repositories, and I love to contribute as much as I can.
+            developers. I also have experience with online code repositories,
+            and I love to contribute as much as I can.
           </Text>
 
           <Text
@@ -129,10 +129,10 @@ export default function Index() {
           </Heading>
 
           <BlogPost
-            title="TypeScript CheatSheet"
-            summary="Cheatsheat of TypeScript"
-            slug="typescript"
-            publishedAt="2021-07-03"
+            title="Roadmap to learning data structures and algorithms (DSA)"
+            summary="The best way to learn data structures and algorithms."
+            slug="dsa"
+            publishedAt="2021-05-01"
           />
 
           <Flex justify="center" width="100%">

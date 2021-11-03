@@ -1,7 +1,7 @@
-import React from "react";
+import { Flex, IconButton, Link, useColorMode } from "@chakra-ui/react";
 import NextLink from "next/link";
-import { Flex, Link, IconButton, useColorMode } from "@chakra-ui/react";
-import { FiGithub, FiTwitter, FiLinkedin, FiMail } from "react-icons/fi";
+import React from "react";
+import { FiGithub, FiLinkedin, FiMail, FiTwitter } from "react-icons/fi";
 
 export const Footer = () => {
   const { colorMode } = useColorMode();
@@ -77,12 +77,12 @@ export const Footer = () => {
       <div>
         <NextLink href="/" passHref>
           <Link fontSize="md" color="gray.500" minWidth="100px" mr={2} mb={3}>
-            /home
+            home
           </Link>
         </NextLink>
         <NextLink href="/blog" passHref>
           <Link fontSize="md" color="gray.500" minWidth="100px" mr={2} mb={3}>
-            /blog
+            blog
           </Link>
         </NextLink>
       </div>
