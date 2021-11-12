@@ -25,6 +25,11 @@ export default class MyDocument extends NextDocument {
             });`,
             }}
           />
+          <script
+            async
+            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9599752460449934"
+            crossorigin="anonymous"
+          ></script>
           <link rel="icon" href="/edit-2.svg" />
           <link rel="icon" href="/edit-2.svg" />
           <link rel="apple-touch-icon" sizes="180x180" href="/edit-2.svg" />
